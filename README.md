@@ -1,6 +1,6 @@
 # PowerPlatform-Dataverse-SystemTables
 
-環境に予め用意されているシステムテーブルの一覧
+既定環境に予め用意されているシステムテーブルの一覧
 
 ---
 
@@ -41,6 +41,8 @@
 | AIPluginOperationResponseTemplate                                | aipluginoperationresponsetemplate              | aipluginoperationresponsetemplates          |
 | AIPluginTitle                                                    | aiplugintitle                                  | aiplugintitles                              |
 | AIPluginUserSetting                                              | aipluginusersetting                            | aipluginusersettings                        |
+| API Request Cache                                                | msdyn_apirequestcache                          | msdyn_apirequestcaches                      |
+| API Request Folder                                               | msdyn_apirequestfolder                         | msdyn_apirequestfolders                     |
 | App Insights Metadata                                            | msdyn_appinsightsmetadata                      | msdyn_appinsightsmetadatas                  |
 | Application                                                      | application                                    | applications                                |
 | ApplicationUser                                                  | applicationuser                                | applicationusers                            |
@@ -49,7 +51,6 @@
 | AppModule メタデータ非同期操作                                   | appmodulemetadataoperationlog                  | appmodulemetadataoperationlogcollection     |
 | ArchiveCleanupInfo                                               | archivecleanupinfo                             | archivecleanupinfos                         |
 | ArchiveCleanupOperation                                          | archivecleanupoperation                        | archivecleanupoperations                    |
-| Attribute Masking Rule                                           | attributemaskingrule                           | attributemaskingrules                       |
 | Azure Service の接続                                             | azureserviceconnection                         | azureserviceconnections                     |
 | Background Operation                                             | backgroundoperation                            | backgroundoperations                        |
 | BotContent                                                       | msdynce_botcontent                             | msdynce_botcontents                         |
@@ -61,8 +62,6 @@
 | CascadeGrantRevokeAccessRecordsTracker                           | cascadegrantrevokeaccessrecordstracker         | cascadegrantrevokeaccessrecordstrackers     |
 | CascadeGrantRevokeAccessVersionTracker                           | cascadegrantrevokeaccessversiontracker         | cascadegrantrevokeaccessversiontrackers     |
 | CertificateCredential                                            | certificatecredential                          | certificatecredentials                      |
-| Challenge                                                        | sample_challenge                               | sample_challenges                           |
-| Challenge Management Process                                     | sample_challengemanagementprocess              | sample_challengemanagementprocesses         |
 | Connection Instance                                              | connectioninstance                             | connectioninstances                         |
 | ConversationTranscript                                           | conversationtranscript                         | conversationtranscripts                     |
 | Copilot Interactions                                             | msdyn_copilotinteractions                      | msdyn_copilotinteractionses                 |
@@ -96,11 +95,10 @@
 | Dataflow Template                                                | msdyn_dataflowtemplate                         | msdyn_dataflowtemplates                     |
 | DataflowRefreshHistory                                           | msdyn_dataflowrefreshhistory                   | msdyn_dataflowrefreshhistories              |
 | DelegatedAuthorization                                           | delegatedauthorization                         | delegatedauthorizations                     |
-| Deleted Item Reference                                           | deleteditemreference                           | deleteditemreferences                       |
+| Deleted Record Reference                                         | deleteditemreference                           | deleteditemreferences                       |
 | DelveActionHub                                                   | delveactionhub                                 | delveactionhub                              |
 | DMS Sync Request                                                 | msdyn_dmssyncrequest                           | msdyn_dmssyncrequests                       |
 | DMS Sync Status                                                  | msdyn_dmssyncstatus                            | msdyn_dmssyncstatuses                       |
-| Donation                                                         | sample_donation                                | sample_donations                            |
 | DVFileSearch                                                     | dvfilesearch                                   | dvfilesearchs                               |
 | DVFileSearchAttribute                                            | dvfilesearchattribute                          | dvfilesearchattributes                      |
 | DVFileSearchEntity                                               | dvfilesearchentity                             | dvfilesearchentities                        |
@@ -128,7 +126,6 @@
 | Flow Run                                                         | flowrun                                        | flowruns                                    |
 | Flow 承認                                                        | msdyn_flow_flowapproval                        | msdyn_flow_flowapprovals                    |
 | Form Mapping                                                     | msdyn_formmapping                              | msdyn_formmappings                          |
-| Fundraiser                                                       | sample_fundraiser                              | sample_fundraisers                          |
 | FxExpression                                                     | fxexpression                                   | fxexpressions                               |
 | Git ブランチ                                                     | gitbranch                                      | gitbranchs                                  |
 | Git プロジェクト                                                 | gitproject                                     | gitprojects                                 |
@@ -136,10 +133,7 @@
 | Git 構成を取得するデータ ソース                                  | gitconfigurationretrievaldatasource            | gitconfigurationretrievaldatasources        |
 | Git 組織                                                         | gitorganization                                | gitorganizations                            |
 | Governance Configuration                                         | governanceconfiguration                        | governanceconfigurations                    |
-| Healthcare Feedback                                              | msdyn_healthcare_feedback                      | msdyn_healthcare_feedbacks                  |
 | HolidayWrapper                                                   | holidaywrapper                                 | holidaywrappers                             |
-| Idea                                                             | sample_idea                                    | sample_ideas                                |
-| Idea to Project Business Process                                 | new_bpf_d69d738cc4d84e2f9930255d396bdf5f       | new_bpf_d69d738cc4d84e2f9930255d396bdf5fs   |
 | Insights Store Data Source                                       | msdyn_datalakeds                               | msdyn_datalakedses                          |
 | Insights Store Virtual Entity                                    | msdyn_insightsstorevirtualentity               | msdyn_insightsstorevirtualentities          |
 | ISV 構成                                                         | isvconfig                                      | isvconfigs                                  |
@@ -165,11 +159,9 @@
 | MultiEntitySearch                                                | multientitysearch                              | multientitysearches                         |
 | NL2SQ Registration Information                                   | nlsqregistration                               | nlsqregistrations                           |
 | NonRelational Data Source                                        | msdyn_nonrelationalds                          | msdyn_nonrelationaldses                     |
-| Object Detection Product                                         | msdyn_objectdetectionproduct                   | msdyn_objectdetectionproducts               |
 | OData v4 データ ソース                                           | msdyn_odatav4ds                                | msdyn_odatav4dses                           |
 | Office Graph ドキュメント                                        | officegraphdocument                            | officegraphdocuments                        |
 | Office ドキュメント                                              | officedocument                                 | officedocuments                             |
-| Online Shopper Intention                                         | msdyn_onlineshopperintention                   | msdyn_onlineshopperintentions               |
 | Option Set Value                                                 | attributepicklistvalue                         | AttributePicklistValues                     |
 | OptionSet                                                        | optionset                                      | optionsets                                  |
 | OrganizationDataSyncFnoState                                     | organizationdatasyncfnostate                   | organizationdatasyncfnostates               |
@@ -213,7 +205,6 @@
 | Privilege Checker Log                                            | privilegecheckerlog                            | privilegecheckerlogs                        |
 | Privilege Checker Run                                            | privilegecheckerrun                            | privilegecheckerruns                        |
 | Processor Registration                                           | processorregistration                          | processorregistrations                      |
-| Product                                                          | sample_product                                 | sample_products                             |
 | ProvisionLanguageForUser                                         | provisionlanguageforuser                       | provisionlanguageforusers                   |
 | QnA                                                              | msdyn_qna                                      | msdyn_qnas                                  |
 | QueueItemCount                                                   | queueitemcount                                 | queueitemcounts                             |
@@ -222,9 +213,8 @@
 | ReconciliationEntityInfo                                         | reconciliationentityinfo                       | reconciliationentityinfos                   |
 | ReconciliationEntityStepInfo                                     | reconciliationentitystepinfo                   | reconciliationentitystepinfos               |
 | ReconciliationInfo                                               | reconciliationinfo                             | reconciliationinfos                         |
-| Recycle Bin Configuration                                        | recyclebinconfig                               | recyclebinconfigs                           |
 | Report Parameter                                                 | reportparameter                                | reportparameters                            |
-| Reservation                                                      | sample_reservation                             | sample_reservations                         |
+| Restore Deleted Records Configuration                            | recyclebinconfig                               | recyclebinconfigs                           |
 | RetainedData Excel                                               | retaineddataexcel                              | retaineddataexcels                          |
 | RetentionCleanupInfo                                             | retentioncleanupinfo                           | retentioncleanupinfos                       |
 | RetentionCleanupOperation                                        | retentioncleanupoperation                      | retentioncleanupoperations                  |
@@ -233,7 +223,6 @@
 | RetentionOperation                                               | retentionoperation                             | retentionoperations                         |
 | RetentionOperationDetail                                         | retentionoperationdetail                       | retentionoperationdetails                   |
 | RetentionSuccessDetail                                           | retentionsuccessdetail                         | retentionsuccessdetails                     |
-| Review                                                           | sample_review                                  | sample_reviews                              |
 | RevokeInheritedAccessRecordsTracker                              | revokeinheritedaccessrecordstracker            | revokeinheritedaccessrecordstrackers        |
 | RoleEditorLayout                                                 | roleeditorlayout                               | roleeditorlayouts                           |
 | RuntimeDependency                                                | runtimedependency                              | runtimedependencies                         |
@@ -255,11 +244,15 @@
 | SearchCustomAnalyzer                                             | searchcustomanalyzer                           | searchcustomanalyzers                       |
 | SearchRelationshipSettings                                       | searchrelationshipsettings                     | searchrelationshipsettingses                |
 | SearchResultsCache                                               | searchresultscache                             | searchresultscaches                         |
+| Secured Masking Column                                           | attributemaskingrule                           | attributemaskingrules                       |
 | Secured Masking Rule                                             | maskingrule                                    | maskingrules                                |
 | Service Plan                                                     | serviceplan                                    | serviceplans                                |
 | Service Plan Custom Control                                      | serviceplancustomcontrol                       |                                             |
 | Service Plan Mapping                                             | serviceplanmapping                             | serviceplanmappings                         |
+| Shared Object                                                    | sharedobject                                   | sharedobjects                               |
+| Shared Workspace                                                 | sharedworkspace                                | sharedworkspaces                            |
 | Shared Workspace Access Token                                    | sharedworkspaceaccesstoken2                    | sharedworkspaceaccesstoken2s                |
+| Shared Workspace Pool                                            | sharedworkspacepool                            | sharedworkspacepools                        |
 | SharePoint Managed Identity                                      | sharepointmanagedidentity                      | sharepointmanagedidentities                 |
 | SharePoint サイト                                                | sharepointsite                                 | sharepointsites                             |
 | SharePoint データ                                                | sharepointdata                                 | sharepointdatacollection                    |
@@ -291,7 +284,6 @@
 | Synapse データベース                                             | synapsedatabase                                | synapsedatabases                            |
 | SystemUserAuthorizationChangeTracker                             | systemuserauthorizationchangetracker           | systemuserauthorizationchangetrackers       |
 | TdsMetadata                                                      | tdsmetadata                                    | tdsmetadatas                                |
-| Team Project                                                     | sample_teamproject                             | sample_teamprojects                         |
 | TeamMobileOfflineProfileMembership                               | teammobileofflineprofilemembership             | teammobileofflineprofilememberships         |
 | Teams チャット                                                   | chat                                           | chats                                       |
 | TextDataRecordsIndexingStatus                                    | textdatarecordsindexingstatus                  | textdatarecordsindexingstatuses             |
@@ -621,10 +613,7 @@
 | 記事                                                             | kbarticle                                      | kbarticles                                  |
 | 記事テンプレート                                                 | kbarticletemplate                              | kbarticletemplates                          |
 | 記事のコメント                                                   | kbarticlecomment                               | kbarticlecomments                           |
-| 共有オブジェクト                                                 | sharedobject                                   | sharedobjects                               |
 | 共有リンク設定                                                   | sharedlinksetting                              | sharedlinksettings                          |
-| 共有ワークスペース                                               | sharedworkspace                                | sharedworkspaces                            |
-| 共有ワークスペース プール                                        | sharedworkspacepool                            | sharedworkspacepools                        |
 | 業務プロセス フロー インスタンス                                 | businessprocessflowinstance                    | businessprocessflowinstances                |
 | 検索プロバイダー                                                 | msdyn_kmfederatedsearchconfig                  | msdyn_kmfederatedsearchconfigs              |
 | 検索マッピング                                                   | lookupmapping                                  | lookupmappings                              |
@@ -761,8 +750,6 @@
 |                                                                  | msdyn_flow_basicapprovalmodel_systemuser       |                                             |
 |                                                                  | msdyn_flow_basicapprovalmodel_team             |                                             |
 |                                                                  | msdyn_msdyn_kbattachment_knowledgearticle      |                                             |
-|                                                                  | msdyn_sample_product_knowledgearticle          |                                             |
-|                                                                  | msdyn_sample_product_knowledgebaserecord       |                                             |
 |                                                                  | mspp_accesscontrolrule_publishingstate         |                                             |
 |                                                                  | mspp_columnpermissionprofile_webrole           |                                             |
 |                                                                  | mspp_entitypermission_webrole                  |                                             |
